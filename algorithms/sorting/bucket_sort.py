@@ -1,6 +1,6 @@
 import numpy as np
 from math import ceil
-from Final.algorithms.sorting.insert_sort import insert_sort
+from algorithms.sorting.insert_sort import insert_sort
 
 def bucket_sort(custom_list):
     if len(custom_list) == 0:
